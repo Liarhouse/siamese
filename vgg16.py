@@ -24,3 +24,5 @@ features2 = model.predict(img2)
 features2 = features2.flatten()
 cosine_similarity = np.dot(features1, features2) / (np.linalg.norm(features1) * np.linalg.norm(features2))
 print("Cosine similarity: ", cosine_similarity)
+
+
